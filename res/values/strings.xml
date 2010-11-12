@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CataNotesActivity!</string>
+    <string name="fecha_title">Fecha de cata:</string>
+    <string name="fecha">Cambiar Fecha de Cata.</string>
+    <string name="nombre_productor">Nombre del Productor:</string>
+    <string name="nombre_vino">Nombre del Vino:</string>
+    <string name="app_name">Notas de Cata</string>
+    <string name="vista">Vista:</string>
+    <string name="profundidad">Profundidad del color:</string>
+    <string name="nariz">Nariz:</string>
+    <string name="boca">Boca:</string>
+    <string name="tonalidad">Tonalidad de color:</string>
+    <string name="grados_alcohol">Grados de Alcohol:</string>
+    <string name="ano_cosecha">Año de cosecha:</string>
+    <string name="nombre_uva">Variedad de Uva:</string>
+    <string name="nombre_region">Región:</string>
+</resources>

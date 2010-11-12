@@ -1,0 +1,143 @@
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+<TextView 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:text="Nota de Cata"
+	android:textSize="20dp" 
+	android:textColor="#C0C0C0" 
+/>
+<ScrollView 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"     
+    >
+<TextView 
+	android:id="@+id/dateDisplay"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="right"
+	android:text=""
+	android:background="#008080" 
+	android:typeface="monospace"
+	android:textStyle="bold"
+        />
+<Button 
+	android:id="@+id/pickDate"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/fecha"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_vino"
+        />
+    <AutoCompleteTextView 
+    	android:id="@+id/autocomplete_vino"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_productor"
+        />
+    <AutoCompleteTextView 
+    	android:id="@+id/autocomplete_productor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        /> 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_region"
+        />
+    <AutoCompleteTextView 
+    	android:id="@+id/autocomplete_region"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        /> 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_uva"
+        />
+    <AutoCompleteTextView 
+    	android:id="@+id/autocomplete_uva"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        /> 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grados_alcohol"
+        />  
+    <Spinner 
+        android:id="@+id/spinner_grados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/grados_alcohol"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ano_cosecha"
+        />  
+    <EditText
+        android:id="@+id/osecha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/ano_cosecha"
+        android:numeric="integer"
+        android:maxLength="4"
+        />
+<TextView 
+	android:id="@+id/titulo_vista"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="left"
+	android:text="@string/vista"
+	android:background="#008080" 
+	android:typeface="monospace"
+	android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profundidad"
+        />
+    <Spinner
+        android:id="@+id/spinner_vista"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/profundidad"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tonalidad"
+        />
+    <Spinner
+        android:id="@+id/spinner_tonalidad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/tonalidad"
+        />
+</LinearLayout>
+	</ScrollView>
+</LinearLayout>
+

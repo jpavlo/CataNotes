@@ -1,0 +1,77 @@
+<resources>
+	<string-array name="tonalidad">
+	<item>Blanco</item>
+	<item>Tinto</item>
+	<item>Rosado</item>
+	</string-array>
+    <string-array name="vinos_array">
+        <item>Chileno</item>
+        <item>Italiano</item>
+        <item>Español</item>
+        <item>Mexicano</item>
+        <item>Aleman</item>
+        <item>Ingles</item>
+    </string-array>
+        <string-array name="productor_array">
+        <item>Chileno</item>
+        <item>Italiano</item>
+        <item>Español</item>
+        <item>Mexicano</item>
+        <item>Aleman</item>
+        <item>Ingles</item>
+    </string-array>
+    <string-array name="region_array">
+        <item>Chileno</item>
+        <item>Italiano</item>
+        <item>Español</item>
+        <item>Mexicano</item>
+        <item>Aleman</item>
+        <item>Ingles</item>
+    </string-array>
+    <string-array name="uva_array">
+        <item>Chileno</item>
+        <item>Italiano</item>
+        <item>Español</item>
+        <item>Mexicano</item>
+        <item>Aleman</item>
+        <item>Ingles</item>
+    </string-array>
+    <string-array name="grados_array">
+        <item>7+-0.5</item>
+        <item>8+-0.5</item>
+		<item>9+-0.5</item>
+		<item>10+-0.5</item>
+        <item>11+-0.5</item>
+        <item>12+-0.5</item>
+		<item>13+-0.5</item>
+		<item>14+-0.5</item>
+        <item>15+-0.5</item>
+        <item>16+-0.5</item>
+		<item>17+-0.5</item>
+		<item>18+-0.5</item>
+        <item>18+-0.5</item>
+        <item>20+-0.5</item>
+		<item>21+-0.5</item>
+		<item>22+-0.5</item>				                        
+    </string-array>
+    <string-array name="anos_array">
+        <item>1930</item>
+        <item>9+-</item>
+        <item>10+-</item>
+        <item>11+-</item>
+        <item>12+-</item>
+        <item>13+-</item>
+        <item>14+-</item>
+        <item>15+-</item>
+        <item>16+-</item>
+        <item>17+-</item>
+        <item>2010</item>
+    </string-array>
+    <string-array name="vista_array">
+        <item>Acuoso</item>
+        <item>Pálido</item>
+        <item>Mediano</item>
+        <item>Profundo</item>
+        <item>Oscuro</item>
+    </string-array>
+</resources>
